@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        .flex-container{
+            display: flex;
+        }
+        *{
+            margin:0px;
+            color: red;
+        }
+        c1{
+            color: black;
+            
+        }
+        .flex-container>div{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        inputi{
+            padding-left: 2%;
+            background-image: url('https://fontawesome.com/v4/icon/exclamation');
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+        .fa{
+            color: gold;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="inputi">
+            <Label for="Name"><b><c1>Name</c1><span>*</span></b></Label><br>
+            <input type="text" style="padding-left: 3%; ">
+            <input type="text" style="margin-left: 2%;  padding-left: 3%;"name="" id=""><br>
+            <label for="First"><c1>First</c1></label>
+            <label for="last" style="padding-left: 20%;"><c1>Last</c1></label><br>
+            <Label for="Email"><b><c1>Email</c1><span>*</span></b></Label><br>
+            <input type="text" style="padding-left: 25%;" name="" id=""><br><br>
+            <Label for="Your Experience"><b><c1>Your Experience</c1><span>*</span></b></Label><br>
+            <i class="fa fa-star fa-3px" aria-hidden="true"></i>
+            <i class="fa fa-star fa-3px" aria-hidden="true"></i>
+            <i class="fa fa-star fa-3px" aria-hidden="true"></i>
+            <i class="fa fa-star fa-3px" aria-hidden="true"></i>
+            <i class="fa fa-star fa-3px" aria-hidden="true"></i><br>
+            <p><c1>Overall, how would you rate your experience with us</c1></p>
+            <h5><b><c1>How satisifed are you with</c1><span>*</span></b></h><br><br>
+                <div class="column">
+                    <div class="col-md-6 text-left">
+                        <div class="categroy">
+                            <table>
+                                    <head>
+                                        <th scope="col">            </th>
+                                        <th scope="col" style="padding-left: 5px; font-size: medium;white-space: nowrap;"><c1>Very Unsatisfied</c1></th>
+                                        <th scope="col" style="padding-left: 70px; font-size: medium;""><c1>Unsatisfied</c1></th>
+                                        <th scope="col" style="padding-left: 70px; font-size: medium;"><c1>Netural</c1></th>
+                                        <th scope="col" style="padding-left: 70px; font-size: medium;"><c1>Satisifed</c1></th>
+                                        <th scope="col" style="padding-left: 70px; font-size: medium;white-space: nowrap;"><c1>Very Satisifed</c1></th>
+                                    </head>
+                                    <tbody>
+                                            <tr style="background-color: rgb(224, 221, 221);">
+                                                    <td><Label scope="row" label for="Purchase" style="padding-left: 80px;"><c1>Purchase</c1></label></td>
+                                                    <td><input type="radio" style="margin-left: 58%;" name="" id=""></td>
+                                                    <td><input type="radio" style="margin-left: 70%;" name="" id=""></td>
+                                                    <td><input type="radio" style="margin-left: 78%;" name="" id=""></td>
+                                                    <td><input type="radio" style="margin-left: 70%;" name="" id=""></td>
+                                                    <td><input type="radio" style="margin-left: 65%;" name="" id=""></td>
+                                            </tr>
+                                            <tr style="background-color:white;">
+                                                <td><Label scope="row" label for="Service" style="padding-left: 80px;"><c1>Service</c1></label></td>
+                                                <td><input type="radio" style="margin-left: 58%;" name="" id=""></td>
+                                                <td><input type="radio" style="margin-left: 70%;" name="" id=""></td>
+                                                <td><input type="radio" style="margin-left: 78%;" name="" id=""></td>
+                                                <td><input type="radio" style="margin-left: 70%;" name="" id=""></td>
+                                                <td><input type="radio" style="margin-left: 65%;" name="" id=""></td>
+                                        </tr>
+                                        <tr style="background-color: rgb(224, 221, 221);">
+                                            <td><Label scope="row" label for="Company Overall" style="padding-left: 80px; white-space: nowrap;"><c1>Company Overall</c1></label></td>
+                                            <td><input type="radio" style="margin-left: 58%;" name="" id=""></td>
+                                            <td><input type="radio" style="margin-left: 70%;" name="" id=""></td>
+                                            <td><input type="radio" style="margin-left: 78%;" name="" id=""></td>
+                                            <td><input type="radio" style="margin-left: 70%;" name="" id=""></td>
+                                            <td><input type="radio" style="margin-left: 65%;" name="" id=""></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br>
+                            <Label for="How likely are you to"><b><c1>How likely are you to</c1></b><span>*</span></Label>  
+                            <div class="categroy">
+                                <table>
+                                        <head>
+                                            <th scope="col">            </th>
+                                            <th scope="col" style="padding-left: 25px; font-size: medium;white-space: nowrap;"><c1>Very Likely</c1></th>
+                                            <th scope="col" style="padding-left: 95px; font-size: medium;""><c1>Unlikely</c1></th>
+                                            <th scope="col" style="padding-left: 70px; font-size: medium;"><c1>Netural</c1></th>
+                                            <th scope="col" style="padding-left: 72px; font-size: medium;"><c1>Likely</c1></th>
+                                            <th scope="col" style="padding-left: 100px; font-size: medium;white-space: nowrap;"><c1>Very Likely</c1></th>
+                                        </head>
+                                        <tbody>
+                                                <tr style="background-color: rgb(224, 221, 221);">
+                                                        <td><Label scope="row" label for="Buy from us again" style="padding-left: 80px; text-wrap: nowrap;"><c1>Buy from us again</c1></label></td>
+                                                        <td><input type="radio" style="margin-left: 60%;" name="" id=""></td>
+                                                        <td><input type="radio" style="margin-left: 78%;" name="" id=""></td>
+                                                        <td><input type="radio" style="margin-left: 76%;" name="" id=""></td>
+                                                        <td><input type="radio" style="margin-left: 76%;" name="" id=""></td>
+                                                        <td><input type="radio" style="margin-left: 73%;" name="" id=""></td>
+                                                </tr>
+                                                <tr style="background-color:white;">
+                                                    <td><Label scope="row" label for="Recommend our prouct to others" style="padding-left: 80px;"><c1>Recommend our prouct to others</c1></label></td>
+                                                    <td><input type="radio" style="margin-left: 61%;" name="" id=""></td>
+                                                    <td><input type="radio" style="margin-left: 78%;" name="" id=""></td>
+                                                    <td><input type="radio" style="margin-left: 77%;" name="" id=""></td>
+                                                    <td><input type="radio" style="margin-left: 76%;" name="" id=""></td>
+                                                    <td><input type="radio" style="margin-left: 74%;" name="" id=""></td>
+                                            </tr>
+                                            <tr style="background-color: rgb(224, 221, 221);">
+                                                <td><Label scope="row" label for="Recommend our company to others" style="padding-left: 80px;;"><c1>Recommend our company to others</c1></label></td>
+                                                <td><input type="radio" style="margin-left: 62%;" name="" id=""></td>
+                                                <td><input type="radio" style="margin-left: 79%;" name="" id=""></td>
+                                                <td><input type="radio" style="margin-left: 78%;" name="" id=""></td>
+                                                <td><input type="radio" style="margin-left: 77%;" name="" id=""></td>
+                                                <td><input type="radio" style="margin-left: 72%;" name="" id=""></td>
+                                        </tr>
+                                    </tbody>
+                                </table>      <br>
+                                <label for="Additional comments or suggestions fonts"><b><c1>Additional comments or suggestions</c1></b></label> <br> 
+                                <textarea name="suggestions" rows="5" cols="85"></textarea><br><br>
+                                <button type="button" onclick="main1()" name="" id="">Submit</button>
+                                <link rel="stylesheet" href="script.js">
+                            </div>
+                        </div>
+                    </div>
+                </div>           
+        </div>
+    </div>    
+</body>
+</html>
